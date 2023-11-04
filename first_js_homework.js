@@ -97,3 +97,27 @@ while (i < 20) {   // Starts a while loop that will continue to iterate as long 
 console.log(letters); // Prints the value of the `letters` variable to the console.
 
 // Expected Output: AAAAAAAAAAAAAAAAAAAAA
+
+// SECTION 4: For Loops
+// A for loop performs the same operation as a while loop. But what are the key differences, if any? What are the similarities?
+
+// For loop control panel
+// Here is an example for loop that prints a message 100 times:
+
+for (let i = 0; i < 100; i++) {
+	console.log('Without you, today\'s emotions are the scurf of yesterday\'s');
+}
+
+// Differences
+// - For loops condition is checked at the beginning of the loop, while the condition for a while loop is checked at the end of the loop.
+// - For loops have a more explicit structure than while loops. This is because the initialization, condition, and update statements for a for loop are all declared in one line.
+// - While loops are more general-purpose than for loops. This is because while loops can be used to implement a wider variety of loop patterns.
+
+// Similarities
+// - For loops and while loops are used to iterate over a block of code.
+// - For loops and while loops can be used to execute a block of code a certain number of times, or until a certain condition is met.
+
+// What are the three components of the control panel? Each component is separated by a semicolon ;.
+// 1. Initialization: sets the initial value of the loop encounter.
+// 2. Condition: checks if the loop counter has reached its limit.
+// 3. Update: increments the loop encounter by 1 after each iteration.
