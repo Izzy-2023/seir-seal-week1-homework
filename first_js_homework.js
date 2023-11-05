@@ -1,4 +1,8 @@
+
+// ******************************
 // SECTION 1: Terms
+// ******************************
+
 // Question: 
 // 1. What does the acronym DRY stand for? Why should we pay attention to it? What programming tools have we learned to write DRY code?
 // - DRY stands for Don't Repeat Yourself. It is a software development principle used to reduce repetition of information that is likely to change. 
@@ -11,7 +15,9 @@
 // - LET declares a block-scoped variable. The variable can only be accessed within the block of code in which it is declared.
 // - VAR declares a function-scoped variable. The variable can be accessed anywhere within the function in which it is declared, even outside of blocks of code.
 
+// ************************************
 //SECTION 2: Boolean Expressions
+// ************************************
 
 const a = 4;
 const b = 53;
@@ -55,20 +61,28 @@ console.log(g);
 // 0
 // 110
 
-
+// *************************************
 // SECTION 3: While Loops
+// *************************************
 
+// ------------------------------------
 // INFINITE LOOP?
+// ------------------------------------
 // Is the code below an infinite loop? Why or why not?
 
 // Yes, the code below is an infinite loop.
 // This is because the condition true will always evaluate to true, so the loop will never terminate.
 
+/*
 while (true) {
 	console.log('Do not run this loop');
 }
- 
+*/
+
+// ------------------------------------
 // INFINITE LOOP II
+// ------------------------------------
+
 // Is this loop an infinite loop? Why or why not?
 // - Yes, the code below is an infinite loop.
 // - This is because the variable runProgram is declared const, which means that its value cannot be changed. 
@@ -77,6 +91,8 @@ while (true) {
 // - This will allow us to change the value of the variable within the loop, which will cause it to terminate.
 // - TThe expected output of the loop will continue to execute forever, unless it is interrupted by  pressing Ctrl+C or the program running out of memory.
 
+/* 
+
 const runProgram = true;
 
 while (runProgram) {
@@ -84,8 +100,11 @@ while (runProgram) {
 	runProgram = false;
 }
 
+*/
+
 // Without running this loop, what is the expected output?
 
+/*
 let letters = "A"; // Declares a variable named `letters` and assigns it the value "A".
 let i = 0;         // Declares a variable named 'i' and and assigns it the value 0.
 
@@ -95,10 +114,13 @@ while (i < 20) {   // Starts a while loop that will continue to iterate as long 
 }
 
 console.log(letters); // Prints the value of the `letters` variable to the console.
-
+*/
 // Expected Output: AAAAAAAAAAAAAAAAAAAAA
 
+
+// ***************************************
 // SECTION 4: For Loops
+// ***************************************
 // A for loop performs the same operation as a while loop. But what are the key differences, if any? What are the similarities?
 
 // For loop control panel
@@ -121,3 +143,13 @@ for (let i = 0; i < 100; i++) {
 // 1. Initialization: sets the initial value of the loop encounter.
 // 2. Condition: checks if the loop counter has reached its limit.
 // 3. Update: increments the loop encounter by 1 after each iteration.
+
+// -----------------------------
+// For Loop
+// -----------------------------
+
+// Write a for loop that will console.log the numbers 0 to 999.
+
+for (let i = 0; i < 1000; i++) {
+	console.log(i);
+  }
