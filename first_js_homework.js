@@ -177,9 +177,9 @@ for (let i = 999; i >= 0; i--) {
 	console.log(i);
   }
 
-// ******************************
+// -------------------------------
 // More counting
-// ******************************* 
+// -------------------------------
 // Write a for loop that uses string concatenation to send a message to the console as well as the current value of i.
 // The loop should run from 1 to 10.
 
@@ -187,4 +187,46 @@ for (let i = 0; i <= 10; i++) {
 	console.log("The value of i is: " + i + " of 10")
 }
 
+/*
+The loop should run from 1 to 10.
 
+Expected Result:
+
+The value of i is: 1 of 10
+The value of i is: 2 of 10
+The value of i is: 3 of 10
+The value of i is: 4 of 10
+The value of i is: 5 of 10
+The value of i is: 6 of 10
+The value of i is: 7 of 10
+The value of i is: 8 of 10
+The value of i is: 9 of 10
+The value of i is: 10 of 10
+
+*/
+
+// -------------------------------
+// Bonus Challenge (optional):
+// -------------------------------
+// Rewrite the above loop using String Interpolation/Template Literals instead of concatenation
+
+// Note: string interpolation uses backticks, this is a different character than a single quote. The backtick can usually be found above the left tab key/below the esc key and it shares it with the tilda ~
+
+for (let i = 0; i <= 10; i++) { 
+	console.log(`The value of i is: ` + i + ` of 10`)
+}
+
+// ----------------------------------
+// Iteration
+// ----------------------------------
+
+const StarWars = ["Han", "C3PO", "R2D2", "Luke", "Leia", "Anakin"];
+
+// Iterate over the StarWars array and print each element to the console.
+for (const character of StarWars) {
+	console.log(character)
+}
+// Iterate over the StarWars array again and print each character's name as well as the value of i.
+for (let i = 0; i < StarWars.length; i++){
+	console.log(`${StarWars[i]} at index ${i}`);
+}
