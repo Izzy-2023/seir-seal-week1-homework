@@ -121,7 +121,6 @@ console.log(letters); // Prints the value of the `letters` variable to the conso
 // ***************************************
 // SECTION 4: For Loops
 // ***************************************
-// A for loop performs the same operation as a while loop. But what are the key differences, if any? What are the similarities?
 
 // For loop control panel
 // Here is an example for loop that prints a message 100 times:
@@ -129,6 +128,8 @@ console.log(letters); // Prints the value of the `letters` variable to the conso
 for (let i = 0; i < 100; i++) {
 	console.log('Without you, today\'s emotions are the scurf of yesterday\'s');
 }
+
+// A for loop performs the same operation as a while loop. But what are the key differences, if any? What are the similarities?
 
 // Differences
 // - For loops condition is checked at the beginning of the loop, while the condition for a while loop is checked at the end of the loop.
