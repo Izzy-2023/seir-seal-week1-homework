@@ -153,3 +153,38 @@ for (let i = 0; i < 100; i++) {
 for (let i = 0; i < 1000; i++) {
 	console.log(i);
   }
+
+// ------------------------------
+// Bonus Challenge (optional)
+// ------------------------------
+
+// What is the difference between \ (backslash, above the enter/return key) and / (forward slash or just slash, shares the key with the ?)? What is \ doing in the string?
+
+// The backslash is used to escape characters such as the single quote character
+console.log('Without you, today\'s emotions are the scurf of yesterday\'s');
+
+console.log("Without you, today's emotions are the scurf of yesterday's");
+
+// -------------------------------
+// For loop in reverse
+// -------------------------------
+
+// Code:
+
+// Using a postfix operator i-- instead of i++, write a for loop that iterates in reverse. Console.log a countdown from 999 to 0.
+
+for (let i = 999; i >= 0; i--) {
+	console.log(i);
+  }
+
+// ******************************
+// More counting
+// ******************************* 
+// Write a for loop that uses string concatenation to send a message to the console as well as the current value of i.
+// The loop should run from 1 to 10.
+
+for (let i = 0; i <= 10; i++) { 
+	console.log("The value of i is: " + i + " of 10")
+}
+
+
