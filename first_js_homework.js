@@ -231,3 +231,5 @@ for (const character of StarWars) {
 for (let i = 0; i < StarWars.length; i++){
 	console.log(`${StarWars[i]} at index ${i}`);
 }
+
+
